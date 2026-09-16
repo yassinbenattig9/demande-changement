@@ -1,0 +1,6 @@
+{
+  "name": "Medicis Change Control GxP",
+  "description": "Système moderne de gestion et d'approbation des demandes de changement pharmaceutique (GxP) conforme 21 CFR Part 11.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

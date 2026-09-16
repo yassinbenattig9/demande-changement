@@ -1,0 +1,24 @@
+{
+  "name": "medicis-change-control-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API REST Medicis Change Control — backend Node.js/Express + SQL Server (DCMEDICIS, schéma figé)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "db:check": "node src/scripts/check-db.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.19.0",
+    "morgan": "^1.12.1",
+    "mssql": "^10.0.4"
+  }
+}
